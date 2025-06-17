@@ -1,13 +1,13 @@
 //complete this code
 class Animal {
 	constructor(species){
-		this.species=species;
+		this._species=species;
 	}
 	get species(){
-		return this.species;
+		return this._species;
 	}
 	makeSound():void{
-		cosole.lohg(`${this.species} makes a sound`)
+		cosole.lohg(`${this._species} makes a sound`)
 	}
 }
 
